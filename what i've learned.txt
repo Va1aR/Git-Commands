@@ -12,9 +12,6 @@ git log /*To see what changes you made. To see hash*/
 /*To revert file*/
 git reset --soft <hash of file u want to go back to>		can choose which file
 git reset HEAD <name of file>
-git checkout -- divide.py
-
-
-
+git checkout -- <name of file>
 
 git reset --hard	reset al files committed
