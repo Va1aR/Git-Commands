@@ -1,0 +1,20 @@
+git add .   means add everything
+
+git add <filename>
+
+git commit -m '<message>'
+
+git status
+
+git log /*To see what changes you made. To see hash*/
+
+	
+/*To revert file*/
+git reset --soft <hash of file u want to go back to>		can choose which file
+git reset HEAD <name of file>
+git checkout -- divide.py
+
+
+
+
+git reset --hard	reset al files committed
